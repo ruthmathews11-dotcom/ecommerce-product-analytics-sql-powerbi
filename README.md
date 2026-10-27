@@ -23,10 +23,10 @@ The initial dataset contains four tables:
 
 | Table | Purpose |
 |---|---|
-| users | Customer details, including signup date, city, and acquisition channel |
-| products | Product names, categories, and prices |
-| events | Product-related event records |
-| orders | Order date, customer, product, amount, and status |
+| users | user_id, signup_date, city, acquisition_channel |
+| products | product_id, product_name, category, price |
+| events | event_id, user_id, event_name, product_id |
+| orders | order_id, user_id, product_id, order_id, amount, status |
 
 The dataset was generated for practice. During validation, a limitation was identified: all orders reference the same product. This does not prevent practising customer and acquisition-channel queries, but it constrains product variety and the interpretation of order-value and revenue comparisons. Results must be treated as observations about this synthetic dataset, not as generalisable business evidence.
 
