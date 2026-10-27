@@ -30,8 +30,6 @@ The initial dataset contains four tables:
 
 The dataset was generated for practice. During validation, a limitation was identified: all orders reference the same product. This does not prevent practising customer and acquisition-channel queries, but it constrains product variety and the interpretation of order-value and revenue comparisons. Results must be treated as observations about this synthetic dataset, not as generalisable business evidence.
 
-The event records were generated independently and do not reliably represent ordered customer journeys. Therefore, this project does not make claims about step-by-step funnel conversion or user drop-off.
-
 ## SQL skills practised
 
 - Selecting columns with SELECT
