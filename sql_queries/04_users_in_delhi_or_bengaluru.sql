@@ -4,4 +4,4 @@
 SELECT DISTINCT user_id
 FROM users
 WHERE city IN ('Delhi', 'Bengaluru')
-ORDER BY user_id;
+ORDER BY user_id asc;
