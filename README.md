@@ -1,4 +1,4 @@
-# ShopSmart | Part 1: Customer & Acquisition Analytics with SQL
+# ShopSmart |Customer & Acquisition Analytics with SQL
 
 A beginner SQL portfolio project using PostgreSQL to answer foundational e-commerce business questions, with an emphasis on customer distribution and acquisition-channel performance.
 
@@ -66,17 +66,6 @@ For each question:
 - PostgreSQL
 - pgAdmin 4
 - SQL
-
-## Scope boundary: Part 2 is separate
-
-A second, separate portfolio project will focus on deeper e-commerce analytics using a newly designed and validated dataset:
-
-- Product and category performance
-- Orders and revenue
-- Repeat purchasing
-- Trends over time
-
-Those analyses are intentionally outside the scope of this Part 1 repository.
 
 ## Limitations
 
